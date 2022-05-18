@@ -161,6 +161,11 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
+p{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
 .home h1{
     font-size:5rem;
     color:#fff;
@@ -369,6 +374,58 @@ header .navbar ul li a:hover{
     bottom:7.5rem; right: 2rem;
     z-index: 100;
     display: none;
+}
+
+.reviews .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.reviews .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.reviews .row .info h3{
+    font-size: 2rem;
+    color:var(--blue);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.reviews .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.reviews .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reviews .row .counter .box{
+    height: 40rem;
+    width:30rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.reviews .row .counter .box span{
+    font-size: 4rem;
+    color:var(--blue);
+}
+
+.reviews .row .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
 }
 
 /* media queries  */
